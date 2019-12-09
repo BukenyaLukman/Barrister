@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Attorney.EducationDetailsActivity"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/app_bar_layout_main"
+            android:id="@+id/my_education_app_bar"></include>
+
+        <TextView
+            android:id="@+id/time_of_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/start_of_school_year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Year"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputs_background"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/end_of_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/end_of_school_year_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Year"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputs_background"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/school_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/school_input_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter School"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputs_background"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/degree_obtained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Degree Obatined"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/degree_obtained_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Degree Obtained"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputs_background"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description(Optional)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/degree_description_optional"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Enter Description(optional)"
+            android:padding="20dp"
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/inputs_background"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/save_info_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttorneyDetailsActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar_layout_main"
+        android:id="@+id/my_details_app_bar"></include>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/details_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:id="@+id/details_name_of_attorney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Counsel"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/details_area_of_practice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area Of Practice"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/details_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/details_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Attorney"
+        android:background="@drawable/rounded_corners"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="17sp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

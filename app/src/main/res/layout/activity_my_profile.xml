@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Attorney.MyProfileActivity">
+
+
+        <include
+            layout="@layout/app_bar_layout_main"
+            android:id="@+id/my_profile_app_bar"></include>
+
+        <EditText
+            android:id="@+id/profile_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FirstName"
+            android:layout_below="@+id/my_profile_app_bar"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+
+        <EditText
+            android:id="@+id/profile_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:layout_below="@+id/profile_first_name"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+
+        <EditText
+            android:id="@+id/profile_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:layout_below="@+id/profile_last_name"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+        <EditText
+            android:id="@+id/profile_firm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Firm Name"
+            android:layout_below="@+id/profile_title"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+
+        <EditText
+            android:id="@+id/profile_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Website(optional)"
+            android:layout_below="@+id/profile_firm_name"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+        <EditText
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_below="@+id/profile_website"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/inputs_background"/>
+        <EditText
+            android:id="@+id/profile_biography"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Biography"
+            android:layout_below="@+id/profile_email"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:background="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/profile_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_below="@+id/profile_biography"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

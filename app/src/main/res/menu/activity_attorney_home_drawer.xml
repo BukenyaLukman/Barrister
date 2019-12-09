@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/my_profile_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/find_projects_24dp"
+            android:title="Find Projects" />
+        <item
+            android:id="@+id/nav_applications"
+            android:icon="@drawable/my_applications_24dp"
+            android:title="Accepted Applications" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notifications_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_tools_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon_24dp"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>

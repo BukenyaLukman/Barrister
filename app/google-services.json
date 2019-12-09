@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "707257230263",
+    "firebase_url": "https://barrister-b02af.firebaseio.com",
+    "project_id": "barrister-b02af",
+    "storage_bucket": "barrister-b02af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707257230263:android:4103c92c5d2b732d7bbe32",
+        "android_client_info": {
+          "package_name": "com.mobilesoftware.barrister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707257230263-g9peg33f5nmmfki3uqmlvr9l0pb85q5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobilesoftware.barrister",
+            "certificate_hash": "7e2057af765d72545cddb68da017617fafebef91"
+          }
+        },
+        {
+          "client_id": "707257230263-bn5acpcjtk1guchc8akvhm81kgkqm743.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLvHCK7BvP-xIABuP6ou818U6CT78uUpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707257230263-bn5acpcjtk1guchc8akvhm81kgkqm743.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
